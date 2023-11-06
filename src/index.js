@@ -80,7 +80,7 @@ function Menu() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
             tempore!
           </p>
-          <ul className="pizzas">
+          <ul className=" pizzas">
             {pizzas.map((pizza) => (
               <Pizza
                 pizzaObj={pizza}
@@ -110,7 +110,6 @@ function Menu() {
   );
 }
 
-// Props Destructuring
 function Pizza({ pizzaObj }) {
   console.log(pizzaObj);
 
